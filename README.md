@@ -9,15 +9,15 @@ The root directory contains each model Hamiltonian directory and a Jupyter noteb
 
 Run the dynamics calculations from each model directory and do plotting next.
 
-Each model directory contains `DVR` and `TSH` directories as places for running the DVR and TSH calculations. The content is the following.
+Each model directory contains `DVR/` and `TSH/` directories as places for running the DVR and TSH calculations. The content is the following.
 
-`DVR`
+`DVR/`
 
     `run_all.py` - a script for running multiple DVR calculations with different initial conditions
 
     `submit.slm` - the SLURM job script used in `run_all.py`
 
-`TSH`
+`TSH/`
 
     `run_all.py` - a script for running multiple TSH calculations with different initial conditions and methods
 
